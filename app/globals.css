@@ -46,7 +46,8 @@ img {
 .hero {
   position: relative;
   display: flex;
-  min-height: 82svh;
+  min-height: auto;
+  aspect-ratio: 1448 / 1086;
   overflow: hidden;
   color: var(--white);
 }
@@ -211,7 +212,7 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   width: min(1120px, calc(100% - 40px));
-  margin: -34px auto 0;
+  margin: 28px auto 0;
   position: relative;
   z-index: 5;
   overflow: hidden;
@@ -474,6 +475,7 @@ h1 {
 
   .hero {
     min-height: 84svh;
+    aspect-ratio: auto;
   }
 
   .heroShade {
@@ -503,7 +505,7 @@ h1 {
 
   .quickFacts {
     width: min(100% - 28px, 1120px);
-    margin-top: -20px;
+    margin-top: 20px;
   }
 
   .quickFacts div {
